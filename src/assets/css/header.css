@@ -43,22 +43,3 @@ header .flex-item:hover ~ .verticalDot{
 header .flex-item:hover ~ .flex-item{
   background-color: rgb(233, 233, 233);
 }
-
-/* header .corner1{
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 68px;
-  left:28.6%;
-  border-right: 1px rgb(233, 233, 233) dotted;
-  border-bottom-right-radius: 40%;
-}
-
-header .corner2{
-  width: 40px;
-  height: 40px;
-  background-color: black;
-  position: absolute;
-  top: 68px;
-  left:48.6%
-} */
