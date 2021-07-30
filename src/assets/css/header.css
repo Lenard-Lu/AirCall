@@ -1,0 +1,64 @@
+header {
+  height: 80px;
+  line-height: 80px;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+header svg {
+  display: block;
+  width: 30%;
+}
+
+header .flex-item{
+  width: 28%; height: 80px;
+  border-left: 1px transparent dotted;
+  font-size: 1em;
+  line-height: 80px;
+  position: relative;
+}
+header img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+header .flex-item:hover{
+  border-left: 1px rgb(233, 233, 233) dotted;
+  border-top-left-radius: 40%;
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+
+header .flex-item:hover ~ img{
+  visibility: hidden;
+  
+}
+header .flex-item:hover ~ .verticalDot{
+  background-color: rgb(233, 233, 233);
+}
+header .flex-item:hover ~ .flex-item{
+  background-color: rgb(233, 233, 233);
+}
+
+/* header .corner1{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 68px;
+  left:28.6%;
+  border-right: 1px rgb(233, 233, 233) dotted;
+  border-bottom-right-radius: 40%;
+}
+
+header .corner2{
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  top: 68px;
+  left:48.6%
+} */

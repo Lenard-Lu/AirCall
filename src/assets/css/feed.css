@@ -1,0 +1,67 @@
+.activityFeed{
+    background-color: rgb(246, 246, 246);
+    height: 500px;    
+    overflow:scroll;
+}
+li{
+    width: 100%;
+    height: 100%;   
+    margin: 20px 0px;
+    padding-top: 20px;
+    border-top: 1px rgb(229, 229, 229) dotted;
+    position: relative;
+}
+
+li .createdTime{
+    position:absolute;
+    z-index: 2;
+    background-color:white;
+    left:40%;
+    top:-10%;
+}
+li .activity{
+    border: 1px rgb(229, 229, 229) solid;
+    display: flex;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 20px;
+    align-items: center;   
+}
+li .activity:hover{
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+
+li img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+    vertical-align: middle;
+    align-items: center;
+}
+li .fromAndTo{
+    width: 180px;
+    text-overflow: ellipsis;
+}
+li .callTo{
+   color: rgb(118, 118, 118);
+}
+li .verticalDot{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+li .time{
+    flex: 1;
+    color: rgb(185,185,185);
+    text-align: right;       
+}
+
+li span{
+    display: inline-block;
+    border: 1px rgb(185,185,185) solid;
+    border-right: 0px;
+    border-radius: 3px;
+    padding:4px;
+}
